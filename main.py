@@ -1,6 +1,6 @@
 import deposit
 import time
-
+3
 def main():
     conta = deposit.ContaBancaria()  # Crie uma instância da classe ContaBancaria
 
@@ -12,6 +12,10 @@ def main():
         print("1: Depósito")
         print("2: Saque")
         print("3: Extrato")
+        print("4: nova_conta")
+        print("5: novo_usuário")
+        print("6: listar_usuarios")
+        print("7: listar_contas")
         print("0: Sair")
 
         opt = input("Digite o número da operação a ser realizada: ")
