@@ -34,32 +34,31 @@ exemplo:
 # Versão 2 do Desafio
 ## Altereções feitas.
 Modularizar em funções saque, deposito e extrato. [X]
-Criar usuário (Cliente do Banco)                  [ ]
-Criar Conta Corrente (vinculado com usuário)      [ ]
+Criar usuário (Cliente do Banco)                  [X]
+Criar Conta Corrente (vinculado com usuário)      [X]
+ Opcional Listar Usuário                          [X]
 
+ 
 ## Depósito
-A função deve receber argumontos apenas por posição (Positional Only)[ ]
+A função deve receber argumentos apenas por posição (Positional Only) [X]
 
 ## Saque
-A função deve receber argumontos apenas por nome (Keyword Only)[ ]
+A função deve receber argumentos apenas por nome (Keyword Only) [X]
 
 ## Extrato
-Posicional Saldo.
-Nomeados Extrato.
-
-A função deve receber argumontos por nome (Keyword Only) e posição (Positional Only)[ ]
+A função deve receber argumentos por nome (Keyword Only) e posição (Positional Only) [X]
 
 ## Criar usuário (Cliente)
-Armazenar usuários em uma lista [ ]
-Usuário é composto por: nome, data de nascimento, cpf e endereço. [ ]
-Endereço ser uma string com formato: logradouro, nro - bairro - cidade/sigla estado. [ ]
-Armazenar somente os números do CPF. [ ]
-Verifica se o cpf já está cadastrado [ ]
+Armazenar usuários em uma lista [X]
+Usuário é composto por: nome, data de nascimento, cpf e endereço. [X]
+Endereço ser uma string com formato: logradouro, nro - bairro - cidade/sigla estado. [X]
+Armazenar somente os números do CPF. [X]
+Verifica se o cpf já está cadastrado [X]
 
 ## Criar Conta Corrente
-Armazenar contas em uma lista [ ]
-Conta é composto por: agência, número da conta e usuário. [ ]
-Número da Conta é sequencial, incia em 1 [ ]
-Número da agência é fixo: 0001 [ ]
-O úsuario pode ter mais de uma conta [ ]
-Uma conta pode ter somente um usuário [ ]
+Armazenar contas em uma lista [X]
+Conta é composto por: agência, número da conta e usuário. [X]
+Número da Conta é sequencial, incia em 1 [X]
+Número da agência é fixo: 0001 [x]
+O úsuario pode ter mais de uma conta [X]
+Uma conta pode ter somente um usuário [X]
